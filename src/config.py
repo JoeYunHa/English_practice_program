@@ -7,7 +7,7 @@ TTS_VOICE = "en-US-AriaNeural"
 TTS_RATE = "-10%"
 
 # 오디오 병합 설정
-MERGE_PAUSE_MS = 500  # 문장 사이 무음 간격 (밀리초 단위, 500ms = 0.5초)
+MERGE_PAUSE_MS = 2000  # 문장 사이 무음 간격 (밀리초 단위, 500ms = 0.5초)
 
 # 디렉토리 경로
 BASE_DIR = Path(__file__).resolve().parent.parent
