@@ -1,0 +1,4 @@
+# TTS
+edge-tts>=6.1.0
+# sent_tokenize
+nltk>=3.8.0
