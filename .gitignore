@@ -1,3 +1,103 @@
+# =========================
+# OS / Editor
+# =========================
+.DS_Store
+Thumbs.db
+
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =========================
+# Node / Electron / Vite
+# =========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+dist/
+dist-electron/
+build/
+out/
+release/
+*.log
+
+# Vite cache
+.vite/
+
+# Electron Forge / Builder artifacts
+*.asar
+*.dmg
+*.exe
+*.AppImage
+*.deb
+*.rpm
+
+# =========================
+# Environment files
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.eggs/
+build/
+dist/
+pip-wheel-metadata/
+
+# Virtual environments
+.venv/
 venv/
-input_texts/
+ENV/
+env/
+
+# Testing / tooling
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# =========================
+# App-generated output / cache
+# =========================
 output_dist/
+output_audio/
+audio_cache/
+*.mp3
+
+# If you generate Anki CSVs locally
+anki_import_master.csv
+
+# Electron userData is not usually in repo, but just in case:
+*.sqlite
+*.db
+
+# =========================
+# Optional: lockfiles policy (choose one approach)
+# =========================
+# If you want to commit lockfiles, REMOVE these:
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+
+# AI agent / user file
+input_file
+.claude/
+.serena/
